@@ -3,7 +3,7 @@ services:
   ubuntu-16-apache-2.4-php-5.6:
     hostname: apache-php-5.6
     container_name: apache-php-5.6
-    user: "1000000"
+    #user: "1000000"
     build: .
     image: ubuntu-16-apache-php-5.6
     ports:
